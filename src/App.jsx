@@ -1,10 +1,13 @@
 import './App.css'
+import Nav from './components/Nav'
 
 const App = () => {
 
   return (
     <div>
-      <h1>Angie's Cleaning Service</h1>
+      <header>
+        <Nav />
+      </header>
 
     </div>
   )

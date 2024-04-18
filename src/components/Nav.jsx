@@ -1,15 +1,16 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link'
+
 
 const Nav = () => {
   return (
     <div>
         <div>
-            <NavLink>About Us</NavLink>
-            <NavLink>Services</NavLink>
-            <NavLink>FAQ</NavLink>
-            <NavLink>Contact</NavLink>
-            <NavLink>CAll NOW</NavLink>
+            <NavHashLink to='#about'>About Us</NavHashLink>
+            <NavHashLink to='#services'>Services</NavHashLink>
+            <NavHashLink to='#faq'>FAQ</NavHashLink>
+            <NavHashLink to='#contact'>Contact</NavHashLink>
+            <NavHashLink >CAll NOW</NavHashLink>
         </div>
       
     </div>
