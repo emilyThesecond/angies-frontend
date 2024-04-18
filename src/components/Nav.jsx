@@ -7,14 +7,15 @@ const Nav = () => {
   return (
     <div>
         <div>
-            <NavHashLink to='#home'>
-                <img src='/public/cleaning.png' alt="cleaning logo" />
+            <NavHashLink >
+                <img className='logo' src='/cleaning.png' alt="cleaning logo" />
+                Angie's Cleaning Service
             </NavHashLink>
-            <NavHashLink to='#about'>About Us</NavHashLink>
-            <NavHashLink to='#services'>Services</NavHashLink>
-            <NavHashLink to='#faq'>FAQ</NavHashLink>
-            <NavHashLink to='#contact'>Contact</NavHashLink>
-            <NavHashLink >CAll NOW</NavHashLink>
+            <NavHashLink>About Us</NavHashLink>
+            <NavHashLink >Services</NavHashLink>
+            <NavHashLink>FAQ</NavHashLink>
+            <NavHashLink >Contact</NavHashLink>
+            <NavHashLink>CAll NOW</NavHashLink>
         </div>
       
     </div>
