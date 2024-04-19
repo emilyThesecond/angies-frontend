@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavHashLink } from 'react-router-hash-link'
+import { HashLink as NavHashLink } from 'react-router-hash-link'
 
 
 
@@ -13,13 +13,14 @@ const Nav = () => {
             </NavHashLink>
             <div className='links'>
 
-            <NavHashLink className='link'>About Us</NavHashLink>
-            <NavHashLink className='link'>Services</NavHashLink>
+            <NavHashLink to='#about' className='link'>About Us</NavHashLink>
+            <NavHashLink to='#services' className='link'>Services</NavHashLink>
             <NavHashLink className='link'>FAQ</NavHashLink>
             <NavHashLink className='link'>Contact</NavHashLink>
-            <button className='call-button'>
+            <a className='link' href="tel:3312057131">Call Now</a>
+            {/* <button className='call-button'>
             <a className='button-txt' href="tel:3312057131">Call Now</a>
-            </button>
+            </button> */}
             </div>
         </div>
       
