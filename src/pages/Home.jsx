@@ -7,7 +7,7 @@ const Home = () => {
         <div className='content'>
 
        <h1>GIVE YOUR HOME SOME SHINE</h1>
-       <p >Reliable house cleaning professionals serving the West, Southwest Chicagoland Suburbs</p>
+       <p style={{ textTransform: 'uppercase' }} >Reliable house cleaning professionals serving the West, Southwest Chicagoland Suburbs</p>
         </div>
        </div>
     </div>
