@@ -49,6 +49,7 @@ body {
 #home {
   /* background-image: url('https://static.wixstatic.com/media/e00276_c83e99b0f1644d49b0d3c386bf6f1305~mv2.png/v1/fill/w_1053,h_787,al_c,q_90,enc_auto/e00276_c83e99b0f1644d49b0d3c386bf6f1305~mv2.png'); */
   background-image: url('https://i.imgur.com/cK9AA6o.jpeg');
+  background-image: url('https://i.imgur.com/87tFQk8.png');
   /* opacity: .3; */
   background-repeat: no-repeat;
   /* position: absolute; */
@@ -75,7 +76,8 @@ body {
 }
 
 #services {
-  background-color: rgb(4, 156, 251);
+  /* background-color: rgb(4, 156, 251); */
+  padding: 0 20px;
 }
 .logo-middle {
   display: flex;
@@ -90,20 +92,25 @@ body {
 }
 
 .services3 > div {
-  border: 1px solid #ccc; /* Border for demonstration */
-  padding: 20px; /* Padding for space */
-  text-align: center; /* Center align content */
+  /* border: 1px solid #ccc;  */
+  padding: 10px; /* Padding for space */
+  text-align:left; /* Center align content */
+  padding-bottom: 100px;
+  padding-bottom: 10vmin;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Style image and text inside the service div */
 .services3 img {
   width: 100%;
-  height: 90%;
+  height: 80%;
+  /* width: 50vmin; */
 }
 
 .services3 h1 {
-  font-size: 18px;
+  font-size: 3vmin;
   margin: 10px 0;
+  padding-top: 3vmin;
 }
 
 .services3 p {
