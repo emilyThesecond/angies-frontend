@@ -85,34 +85,51 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   /* font-size: 1.5vmin; */
 }
-.services3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns */
-  gap: 20px; /* Gap between grid items */
+@media screen and (min-width: 480px) {
+  .services3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Gap between grid items */
+  }
+  
+  .services3 > div {
+    /* border: 1px solid #ccc;  */
+    padding: 10px; /* Padding for space */
+    text-align:left; /* Center align content */
+    padding-bottom: 100px;
+    padding-bottom: 10vmin;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style image and text inside the service div */
+  .services3 img {
+    width: 100%;
+    height: 80%;
+    /* width: 50vmin; */
+  }
+  
+  .services3 h1 {
+    font-size: 3vmin;
+    margin: 10px 0;
+    padding-top: 3vmin;
+  }
+  
+  .services3 p {
+    font-size: 14px;
+  }
 }
 
-.services3 > div {
-  /* border: 1px solid #ccc;  */
-  padding: 10px; /* Padding for space */
-  text-align:left; /* Center align content */
-  padding-bottom: 100px;
-  padding-bottom: 10vmin;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-/* Style image and text inside the service div */
-.services3 img {
-  width: 100%;
-  height: 80%;
-  /* width: 50vmin; */
-}
-
-.services3 h1 {
-  font-size: 3vmin;
-  margin: 10px 0;
-  padding-top: 3vmin;
-}
-
-.services3 p {
-  font-size: 14px;
+@media screen and (max-width: 480px) {
+  .services3 > div {
+    padding: 10px; /* Padding for space */
+    text-align:center; /* Center align content */ 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .services3 img {
+    width: 100vmin;
+    /* height: 100vmin; */
+    /* width: 50vmin; */
+  }
+  
 }
